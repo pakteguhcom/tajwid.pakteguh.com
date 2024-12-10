@@ -1,0 +1,79 @@
+<html><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="file:///android_asset/styles.css" rel="stylesheet" type="text/css">
+	<script src="file:///android_asset/audioplayerengine/jquery.js"></script>
+	<script src="file:///android_asset/audioplayerengine/amazingaudioplayer.js"></script>
+	<link rel="stylesheet" type="text/css" href="file:///android_asset/audioplayerengine/initaudioplayer-1.css">
+	<script src="file:///android_asset/audioplayerengine/initaudioplayer-1.js"></script>
+</head><body><h2>Ra' Tafkhim </h2>
+<br/>
+Ra' Tafkhim adalah cara membaca huruf ra dengan  tafkhim (tebal).
+<br/>   
+Ra harus di baca tafkhim atau tebal karena beberapa sebab berikut ini: 
+<br/>
+<br/>   
+
+<ul>
+	<li> 
+		Ra’ yang berbaris fathah atau dhommah.	
+		<img src="hukum_ra/ra_tafkhim/ra_fathah.png" class="full" />
+		<div id="amazingaudioplayer-1" style="display:block;position:relative;width:100%;height:auto;margin:0px auto 0px;">
+			<ul class="amazingaudioplayer-audios" style="display:none;">
+				<li data-artist="" data-title="1-8" data-album="" data-info="" data-image="" data-duration="">
+					<div class="amazingaudioplayer-source" data-src="file:///android_asset/song/ra_fathah.ogg" data-type="audio/ogg">
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</li>
+	<li>
+		Ra’ yang bertanda sukun dan huruf sebelumnya berbaris fathah atau dhommah.
+		
+		<img src="hukum_ra/ra_tafkhim/ra_sukun.png" class="full" />
+		<div id="amazingaudioplayer-2" style="display:block;position:relative;width:100%;height:auto;margin:0px auto 0px;">
+			<ul class="amazingaudioplayer-audios" style="display:none;">
+				<li data-artist="" data-title="1-8" data-album="" data-info="" data-image="" data-duration="">
+					<div class="amazingaudioplayer-source" data-src="file:///android_asset/song/ra_sukun.ogg" data-type="audio/ogg">
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</li>
+	<li>
+		Ra’ di hujung kalimah dibaca sebagai sukun kerana waqaf yang mendatang; 
+		juga diselangi huruf mad wau <span style="font-size:22px">(  &#x0648;  ) </span> atau  alif <span style="font-size:22px">(  &#x0627;   )</span> yang 
+		bertanda sukun dan sebelumnya ada huruf yang berbaris fathah atau dhommah.
+		
+		<img src="hukum_ra/ra_tafkhim/ra_waqaf.png" class="full" />	
+	</li>
+	<li>
+		Ra’ di hujung kalimah dibaca sebagai sukun kerana waqaf yang mendatang; sebelumnya terdapat huruf mati <b>selain </b>  
+		huruf <span style="font-size:22px">( &#x0649;  ) </span> 
+		dan sebelumnya lagi terdapat huruf yang berbaris fathah atau dhommah.
+		<img src="hukum_ra/ra_tafkhim/ra_br.png" class="full" />	
+	</li>
+	<li>
+		Ra' yang bertanda sukun selepas huruf hamzah wasal yang berbaris kasrah maupun dhomah.
+		<img src="hukum_ra/ra_tafkhim/ra_hamzah.png" class="full" />	
+	</li>
+	<li>
+		Ra' yang bertanda sukun selepas huruf yang berbaris kasrah dan selepasnya terdapat huruf isti'la'.
+		<img src="hukum_ra/ra_tafkhim/ra_istila.png" class="full" />	
+	</li>
+	 
+ </ul>
+
+<script>
+
+    document.addEventListener('play', function(e){
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+        if(audios[i] != e.target){
+            audios[i].pause();
+        }
+    }
+}, true);
+
+</script>
+</body></html>
